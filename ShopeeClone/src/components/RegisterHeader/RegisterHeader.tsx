@@ -13,7 +13,7 @@ export default function RegisterHeader() {
               </g>
             </svg>
           </Link>
-          <div className='lg:text- ml-5 text-xl'>Đăng ký</div>
+          {/* <div className='lg:text- ml-5 text-xl'>Đăng ký</div> */}
         </nav>
       </div>
     </header>
