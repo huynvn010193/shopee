@@ -42,6 +42,7 @@ export default function Register() {
               })
             })
           }
+          // Cách phải check từng cái
           // if (formError?.email) {
           //   setError('email', {
           //     message: formError.email,
