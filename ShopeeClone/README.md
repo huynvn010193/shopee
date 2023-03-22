@@ -12,3 +12,10 @@ default config: https://github.com/tailwindlabs/tailwindcss/blob/master/stubs/de
 account register : h12@gmail.com
 
 - Thêm noValidate vào thuộc tính form để form ko validate
+
+- THư viện animation : https://www.framer.com/motion/
+  Note: xem lại bài React main concept
+
+- Thư viện handle postion tính tooltip, pophover, : https://floating-ui.com/docs/getting-started
+
+- Thư viện icons: Heroicons.
