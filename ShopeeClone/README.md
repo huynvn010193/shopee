@@ -19,3 +19,10 @@ account register : h12@gmail.com
 - Thư viện handle postion tính tooltip, pophover, : https://floating-ui.com/docs/getting-started
 
 - Thư viện icons: Heroicons.
+
+168.  Cái thư viện @floating-ui/react-dom-interactions trên document của https://floating-ui.com/docs/react đã đổi tên thành @floating-ui/react, anh em cứ cài thằng mới là @floating-ui/react đi.
+
+onMouseEnter: hover vô
+onMouseLeave: hover ra.
+-translate-y-full = translateY(-100%)
+transformOrigin: phóng to thu nhỏ tại vị trí điểm.
