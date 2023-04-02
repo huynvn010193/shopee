@@ -1,29 +1,7 @@
-import { arrow, offset, shift, useFloating } from '@floating-ui/react'
-import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Poppver from '../Popover'
 
 export default function Header() {
-  const [open, setOpen] = useState(false)
-  const arrowRef = useRef<HTMLElement>(null)
-  const { x, y, reference, floating, strategy, middlewareData } = useFloating({
-    middleware: [
-      offset(6), // cho vị trí xuống
-      shift(),
-      arrow({
-        element: arrowRef
-      })
-    ]
-  })
-
-  const showPopover = () => {
-    setOpen(true)
-  }
-
-  const hidePopover = () => {
-    setOpen(false)
-  }
-
   return (
     <div className='bg-[linear-gradient(-180deg,#f53d2d,#f63)] pb-5 pt-2 text-white'>
       <div className='container'>
