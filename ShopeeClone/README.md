@@ -26,3 +26,8 @@ onMouseEnter: hover vô
 onMouseLeave: hover ra.
 -translate-y-full = translateY(-100%)
 transformOrigin: phóng to thu nhỏ tại vị trí điểm.
+
+4/4/2023 170.
+truncate: class 3 chấm khi title quá dài
+Xem lại overflow-hidden
+justify-self: Xem thêm thuộc tính
